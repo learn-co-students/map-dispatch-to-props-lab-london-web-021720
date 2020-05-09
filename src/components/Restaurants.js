@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import { connect } from 'react-redux'
 
 class Restaurants extends Component {
 
@@ -20,5 +20,7 @@ class Restaurants extends Component {
 const mapStateToProps = state => {
   return { restaurants: state.restaurants }
 }
+
+
 
 export default connect(mapStateToProps)(Restaurants);
